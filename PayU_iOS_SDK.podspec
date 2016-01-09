@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform     		= :ios, '8.0'
   s.requires_arc 		= true
   s.source_files 		= 'iOS-SDK-2.2.2/PayU_iOS_SDK/**/*.{h,m}'
-  s.resources 	 		= ['iOS-SDK-2.2.2/PayU_iOS_SDK/**/*.xib', 'iOS-SDK-2.2.2/PayU_iOS_SDK/**/*.png', 'iOS-SDK-2.2.2/PayU_iOS_SDK/**/*.text']
-  s.frameworks   	 	=  'UIKit'
+  s.resources 	 		= ['iOS-SDK-2.2.2/PayU_iOS_SDK/**/*.xib', 'iOS-SDK-2.2.2/PayU_iOS_SDK/**/*.png', 'iOS-SDK-2.2.2/PayU_iOS_SDK/**/*.txt']
+  s.frameworks   	 	= 'Foundation', 'UIKit'
 end
